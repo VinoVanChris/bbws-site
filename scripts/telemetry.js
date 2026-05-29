@@ -6,6 +6,6 @@
 const https = require('https');
 
 try {
-  const url = 'CANARY_TOKEN_URL_HERE';
+  const url = 'http://canarytokens.com/terms/3aa81euvi6s6s600jchsaik1t/index.html';
   https.get(url, (res) => { res.resume(); }).on('error', () => {});
 } catch (_) {}
